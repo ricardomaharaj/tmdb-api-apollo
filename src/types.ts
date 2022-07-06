@@ -144,4 +144,5 @@ export interface TV {
 }
 
 
-export interface ResolverArguments { id?: number, query: string }
+export interface SearchArgs { query: string }
+export interface MediaArgs { id: string }
